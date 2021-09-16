@@ -8,6 +8,7 @@
 }
 i{
     margin: auto 0.4rem;
+    font-size: 3.4rem;
 }
 :root{
     --font-size:8rem;
@@ -43,7 +44,7 @@ nav .logo h1{
 }
     
 
-nav img{
+nav .lg{
     height: 8.1rem;
     width: 15.3rem;
 }
@@ -300,7 +301,7 @@ nav button{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 10rem;
+    margin: 0.5rem;
 }
 .contect h1{
     text-align: center;
@@ -309,7 +310,7 @@ nav button{
 }
 .contect .cont{
     width: 60rem;
-    height: 70rem;
+    /* height: 70rem; */
     box-shadow: var(--box-shadow);
     padding: 3rem;
     display: flex;
@@ -410,7 +411,7 @@ nav button{
     font-weight: 700;
 }
 .corse .cor{
-    width: 80%;
+    /* width: 85%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -460,6 +461,51 @@ nav button{
 }
 div.cors1 h1{
     margin-bottom: 0;
+}
+footer{
+    width: 100vw;
+    background: linear-gradient(to right, #00093c, #2d0b00) ;
+    padding: 10rem 0 20rem 10rem;
+    border-top-left-radius: 14.5rem;
+    color: white;
+    line-height: 4rem;
+    font-size: 2rem;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 3rem;
+}
+.col h1{
+    width: fit-content;
+    margin-bottom: 2rem;
+    border-bottom: 0.2rem solid white;
+}
+.col p:nth-child(4){
+    width: fit-content;
+    margin: 2rem 0 2rem 0;
+}
+.col ul{
+    margin: 3rem 0;
+}
+.col li{
+    list-style: none;
+}
+.col a{
+    text-decoration: none;
+    color: white;
+}
+footer img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
 }
  /* 1 */
 @media only screen 
